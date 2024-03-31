@@ -1,0 +1,84 @@
+/* Style for the main container */
+.container {
+    max-width: 100%px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7fafc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the heading */
+.heading {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style for the input field */
+.input-field {
+    border: 1px solid #cbd5e0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Style for the button */
+.button {
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the button on hover */
+.button:hover {
+    background-color: #3182ce;
+}
+
+/* Style for the todo list */
+.todo-list {
+    margin-top: 20px;
+}
+
+/* Style for each todo item */
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Style for the checkbox */
+.checkbox {
+    margin-right: 10px;
+}
+
+/* Style for the task text */
+.task-text {
+    flex-grow: 1;
+}
+
+/* Style for the delete button */
+.delete-button {
+    background-color: #f56565;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the delete button on hover */
+.delete-button:hover {
+    background-color: #e53e3e;
+}
+
+.btn-style {
+    vertical-align: top;
+}
+
+.list-space {
+    padding: 20px 0 20px 0;
+}
